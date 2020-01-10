@@ -23,7 +23,7 @@ class App extends Component<AppProps, AppState> {
     return (
       <div>
         <Hello name={this.state.name} />
-        <p>
+        <BarProp></BarProp>
           Start editing to see some magic happening :)
         </p>
         <p>aaa</p>
